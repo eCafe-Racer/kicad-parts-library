@@ -157,7 +157,10 @@
     (property "Manufacturer Part" "ABLS7M-16.000MHZ-B-2-T" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Crystal Oscillator 16MHz 18pF" (id 8) (at 0 0 0)
+    (property "Frequency" "16.000MHZ" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "ki_description" "Crystal Oscillator 16MHz 18pF" (id 9) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ABLS7M-16.000MHZ-B-2-T_0_1"
@@ -2735,11 +2738,11 @@
       )
     )
   )
-  (symbol "ecafe-racer:LM1084IS" (in_bom yes) (on_board yes)
+  (symbol "ecafe-racer:LM1084IS-5.0" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 5.08 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LM1084IS" (id 1) (at -2.54 7.62 0)
+    (property "Value" "LM1084IS-5.0" (id 1) (at -2.54 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 0 2.54 0)
@@ -2766,12 +2769,12 @@
     (property "ki_description" "Linear Voltage Regulator IC  1 Output  5A DDPAK/TO-263-3" (id 9) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LM1084IS_0_1"
+    (symbol "LM1084IS-5.0_0_1"
       (rectangle (start -5.08 5.08) (end 5.08 -5.08)
         (stroke (width 0.0006)) (fill (type none))
       )
     )
-    (symbol "LM1084IS_1_1"
+    (symbol "LM1084IS-5.0_1_1"
       (pin power_in line (at 0 -7.62 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
