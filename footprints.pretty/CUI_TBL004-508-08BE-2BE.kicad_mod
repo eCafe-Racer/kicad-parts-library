@@ -1,5 +1,5 @@
-(footprint "CUI_TBL004-508-08BE-2BE" (version 20201116) (generator pcbnew) (layer "F.Cu")
-  (tedit 60396C1B)
+(footprint "CUI_TBL004-508-08BE-2BE" (version 20210722) (generator pcbnew) (layer "F.Cu")
+  (tedit 610DA791)
   (attr through_hole)
   (fp_text reference "REF**" (at 0.845 -3.739) (layer "F.SilkS")
     (effects (font (size 1.4 1.4) (thickness 0.1)))
@@ -39,7 +39,7 @@
   (pad "7" thru_hole circle (at 30.48 0) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask) (tstamp 509dd2bf-1f0a-4bb8-8d04-89fbae593a08))
   (pad "8" thru_hole circle (at 35.56 0) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask) (tstamp 754a4c45-7b54-4a50-96eb-f08c2e0bd8d7))
   (pad "8" thru_hole circle (at 35.56 7.62) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask) (tstamp e91eb881-219a-4431-be8a-a1d44653c0d8))
-  (model ":ecafe:CUI-TBL004-508-08BE-2GY.step"
+  (model "/home/connor/projects/pcbs/lib/ecafe-racer/models/CUI-TBL004-508-08BE-2GY.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
